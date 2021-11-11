@@ -16,7 +16,7 @@ public class HelloController {
     @GetMapping("/")
     @ApiOperation(value = "Mostra lista de questões")
     public String index() {
-        var resp = endpoint.getSector("1");
+        var resp = "health check => http://localhost:8080/swagger-ui.html#/";//endpoint.getSector("1");
         return "Greetings from Spring Boot! : " + resp ;
     }
 
