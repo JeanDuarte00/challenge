@@ -1,4 +1,4 @@
-package com.pnia.challenge.infrastructure.HttpClient;
+package com.pnia.challenge.infrastructure.httpclient;
 
 import org.springframework.http.ResponseEntity;
 import com.pnia.challenge.domain.entities.BusinessSector;
