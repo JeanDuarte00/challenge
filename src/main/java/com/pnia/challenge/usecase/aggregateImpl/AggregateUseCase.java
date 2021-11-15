@@ -3,19 +3,20 @@ package com.pnia.challenge.usecase.aggregateImpl;
 import com.pnia.challenge.domain.entities.BusinessSector;
 import com.pnia.challenge.domain.entities.occurrenceCounterImpl.Baking;
 import com.pnia.challenge.domain.entities.occurrenceCounterImpl.Clothing;
-import com.pnia.challenge.domain.entities.occurrenceCounterImpl.Technology;
 import com.pnia.challenge.domain.entities.occurrenceCounterImpl.CounterAggregator;
+import com.pnia.challenge.domain.entities.occurrenceCounterImpl.Technology;
 import com.pnia.challenge.domain.enuns.BusinessSectorType;
 import com.pnia.challenge.infrastructure.httpclient.TalkDeskBusinessSectorAPI;
 import com.pnia.challenge.usecase.IAggregate;
 import com.pnia.challenge.usecase.exception.AggregationException;
 import com.pnia.challenge.usecase.prefixReaderImpl.FilePrefixReader;
-import org.slf4j.LoggerFactory;
 import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Component;
+
 import java.util.*;
 
 

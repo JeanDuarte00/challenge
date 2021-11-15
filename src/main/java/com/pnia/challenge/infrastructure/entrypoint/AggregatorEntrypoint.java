@@ -1,7 +1,6 @@
 package com.pnia.challenge.infrastructure.entrypoint;
 
 import com.pnia.challenge.usecase.IAggregate;
-import com.pnia.challenge.usecase.aggregateImpl.AggregateUseCase;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.slf4j.Logger;
@@ -15,9 +14,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.time.LocalDate;
 import java.time.LocalDateTime;
-import java.time.LocalTime;
 import java.util.List;
 
 @CrossOrigin("*")

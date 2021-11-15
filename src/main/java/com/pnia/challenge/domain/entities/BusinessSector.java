@@ -1,15 +1,18 @@
 package com.pnia.challenge.domain.entities;
 
 import java.io.Serializable;
+import java.util.Objects;
 
 public final class  BusinessSector implements Serializable {
 
-    private final String number;
-    private final String sector;
+    private String number = "";
+    private String sector = "";
 
     public BusinessSector(String number, String sector) {
-        this.number = number;
-        this.sector = sector;
+        if (!Objects.isNull(number) && !Objects.isNull(sector)) {
+            this.number = number;
+            this.sector = sector;
+        }
     }
 
     public String getNumber() {

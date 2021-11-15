@@ -1,7 +1,6 @@
 package com.pnia.challenge.usecase.prefixReaderImpl;
 
 import com.pnia.challenge.usecase.IPrefixReader;
-import com.pnia.challenge.usecase.aggregateImpl.AggregateUseCase;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,14 +12,9 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.nio.file.Files;
-import java.nio.file.Paths;
 import java.util.HashSet;
-import java.util.Objects;
 import java.util.Set;
 import java.util.concurrent.atomic.AtomicReference;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 @Component
 public final class FilePrefixReader implements IPrefixReader {
@@ -73,7 +67,7 @@ public final class FilePrefixReader implements IPrefixReader {
                     prefixes.add(prefixLine);
                 }
             }
-
+            reader.close();
         } catch (IOException ex) {
             logger.error(ex.toString());
         }
