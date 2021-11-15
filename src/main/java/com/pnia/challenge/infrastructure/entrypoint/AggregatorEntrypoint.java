@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
+import javax.xml.ws.http.HTTPException;
 import java.time.LocalDateTime;
 import java.util.List;
 import java.util.Map;
@@ -36,7 +37,7 @@ public class AggregatorEntrypoint {
             ResponseEntity<Map<String, Map<String, String>>> response = ResponseEntity.ok(aggregateLogic.aggregate(numbers));
             logger.debug("Request ("+requestHashBasedOnTime+")is done: " + LocalDateTime.now());
             return response;
-        } catch (HttpMessageNotReadableException ex) {
+        } catch (HTTPException ex) {
             return ResponseEntity.status(HttpStatus.NOT_ACCEPTABLE).body("You have sent us a invalid input");
         } catch (Exception ex) {
             return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(ex.getMessage());
