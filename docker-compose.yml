@@ -1,0 +1,15 @@
+version: '2'
+services:
+    challenge-td:
+        container_name: challenge-td
+        build:
+            context: ./            
+            dockerfile: Dockerfile
+        image: challenge:latest
+        ports:
+            - 8090:8080
+        networks:
+            - spring-cloud-network
+networks:
+    spring-cloud-network:
+        driver: bridge
