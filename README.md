@@ -1,4 +1,4 @@
-# challenge
+# CHALLENGE
 Talkdesk's challenge application
 
 
