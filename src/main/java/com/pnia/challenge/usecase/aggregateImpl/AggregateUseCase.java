@@ -62,7 +62,7 @@ public class AggregateUseCase implements IAggregate {
     private void mapPrefixToSectors(Map<String, Set<BusinessSector>> prefixPerSector, Set<BusinessSector> sectors) {
         sectors.forEach((sector) -> {
             String prefix = prefixReader.getExistingPrefix(sector.getNumber());
-            if (!prefix.isBlank()) {
+            if (!prefix.isEmpty()) {
                 if( !prefixPerSector.containsKey(prefix) ){
                     prefixPerSector.put(prefix, new HashSet<>());
                 }
