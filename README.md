@@ -8,7 +8,7 @@ after spent few hours on this projectm here it's, the best that I could, hope it
 I'm excited to hear you feedback.
 
 I didn't get my application running on Heroku, instead I deployed on Digital Ocean
-http://138.68.166.219:8090/swagger-ui.htm
+http://138.68.166.219:8090/swagger-ui.html
 on this page you may teste my implementation
 
 And I'm also provinding it using docker/docker-compose to run locally, 
