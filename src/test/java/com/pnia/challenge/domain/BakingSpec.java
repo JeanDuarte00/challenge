@@ -4,7 +4,9 @@ import com.pnia.challenge.domain.entities.occurrenceCounterImpl.Baking;
 import org.junit.Assert;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
 
+@SpringBootTest
 public class BakingSpec {
 
     @Test
