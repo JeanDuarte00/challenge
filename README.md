@@ -14,4 +14,5 @@ on this page you may teste my implementation
 And I'm also provinding it using docker/docker-compose to run locally, 
 to on localhost, just execute: docker-compose up
 
+And after running validate.sh pointing to my application I get:
 ![validate.sh](validate-sh.PNG "Result Validate.sh")
