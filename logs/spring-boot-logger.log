@@ -61,3 +61,29 @@
 2021-11-15 02:13:58,752 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8090-exec-1] Completed initialization in 0 ms
 2021-11-15 02:13:59,411 WARN org.springframework.web.servlet.DispatcherServlet [http-nio-8090-exec-2] No mapping for GET /
 2021-11-15 02:13:59,469 WARN org.springframework.web.servlet.DispatcherServlet [http-nio-8090-exec-6] No mapping for GET /csrf
+2021-11-15 04:18:07,647 INFO org.springframework.boot.StartupInfoLogger [main] Starting ChallengeApplication v0.0.1-SNAPSHOT using Java 11.0.11 on jean-b01 with PID 16676 (C:\Users\jean.b\Desktop\Treinamento\talkd\pnia\pnia-challenge\challenge\target\challenge-0.0.1-SNAPSHOT.jar started by jean.b in C:\Users\jean.b\Desktop\Treinamento\talkd\pnia\pnia-challenge\challenge)
+2021-11-15 04:18:07,651 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.12, Spring v5.3.12
+2021-11-15 04:18:07,652 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-15 04:18:08,734 INFO org.springframework.cloud.context.scope.GenericScope [main] BeanFactory id=91aabcfb-9f94-32e6-bda6-34c91afc6512
+2021-11-15 04:18:09,398 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-11-15 04:18:09,424 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-11-15 04:18:09,425 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-11-15 04:18:09,425 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-15 04:18:09,472 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-11-15 04:18:09,473 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1757 ms
+2021-11-15 04:18:09,697 DEBUG com.pnia.challenge.usecase.prefixReaderImpl.FilePrefixReader [main] Going to read all prefixes from file into memory, will take time!
+2021-11-15 04:18:10,352 DEBUG com.pnia.challenge.usecase.prefixReaderImpl.FilePrefixReader [main] Prefixes files is into memory!
+2021-11-15 04:18:10,738 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-11-15 04:18:12,587 INFO org.springframework.cloud.commons.util.InetUtils [main] Cannot determine local hostname
+2021-11-15 04:18:12,612 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-11-15 04:18:12,658 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-11-15 04:18:14,150 INFO org.springframework.cloud.commons.util.InetUtils [main] Cannot determine local hostname
+2021-11-15 04:18:14,151 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-11-15 04:18:14,170 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-11-15 04:18:14,198 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-11-15 04:18:14,290 INFO org.springframework.boot.StartupInfoLogger [main] Started ChallengeApplication in 8.592 seconds (JVM running for 9.356)
+2021-11-15 04:18:31,279 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-15 04:18:31,281 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-11-15 04:18:31,283 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+2021-11-15 04:18:31,892 WARN org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-6] No mapping for GET /
+2021-11-15 04:18:31,961 WARN org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-7] No mapping for GET /csrf
