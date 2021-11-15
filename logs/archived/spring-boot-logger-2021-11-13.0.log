@@ -1,0 +1,529 @@
+2021-11-13 22:27:02,225 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ChallengeApplication using Java 11.0.11 on jean-b01 with PID 12468 (C:\Users\jean.b\Desktop\Treinamento\talkd\pnia\pnia-challenge\challenge\target\classes started by jean.b in C:\Users\jean.b\Desktop\Treinamento\talkd\pnia\pnia-challenge\challenge)
+2021-11-13 22:27:02,225 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.12, Spring v5.3.12
+2021-11-13 22:27:02,225 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-13 22:27:02,319 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-11-13 22:27:02,319 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-11-13 22:27:03,643 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=06b550da-c1fd-3d8f-bb30-47f8fdb1a993
+2021-11-13 22:27:04,790 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-11-13 22:27:04,811 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-11-13 22:27:04,811 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-11-13 22:27:04,811 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-13 22:27:04,942 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-11-13 22:27:04,942 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2623 ms
+2021-11-13 22:27:05,174 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-11-13 22:27:09,815 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [restartedMain] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-11-13 22:27:11,553 INFO org.springframework.cloud.commons.util.InetUtils [restartedMain] Cannot determine local hostname
+2021-11-13 22:27:11,569 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-11-13 22:27:11,600 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-11-13 22:27:13,074 INFO org.springframework.cloud.commons.util.InetUtils [restartedMain] Cannot determine local hostname
+2021-11-13 22:27:13,074 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Context refreshed
+2021-11-13 22:27:13,096 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Found 1 custom documentation plugin(s)
+2021-11-13 22:27:13,127 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [restartedMain] Scanning for api listing references
+2021-11-13 22:27:13,299 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ChallengeApplication in 13.761 seconds (JVM running for 15.208)
+2021-11-13 22:27:23,219 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-13 22:27:23,220 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-11-13 22:27:23,222 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2021-11-13 22:28:09,296 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ChallengeApplication using Java 11.0.11 on jean-b01 with PID 15172 (C:\Users\jean.b\Desktop\Treinamento\talkd\pnia\pnia-challenge\challenge\target\classes started by jean.b in C:\Users\jean.b\Desktop\Treinamento\talkd\pnia\pnia-challenge\challenge)
+2021-11-13 22:28:09,296 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.12, Spring v5.3.12
+2021-11-13 22:28:09,296 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-13 22:28:09,380 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-11-13 22:28:09,380 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-11-13 22:28:10,683 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=06b550da-c1fd-3d8f-bb30-47f8fdb1a993
+2021-11-13 22:28:11,669 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-11-13 22:28:11,685 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-11-13 22:28:11,685 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-11-13 22:28:11,685 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-13 22:28:11,854 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-11-13 22:28:11,854 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2474 ms
+2021-11-13 22:28:12,086 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-11-13 22:28:16,163 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [restartedMain] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-11-13 22:28:17,928 INFO org.springframework.cloud.commons.util.InetUtils [restartedMain] Cannot determine local hostname
+2021-11-13 22:28:17,959 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-11-13 22:28:17,991 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-11-13 22:28:19,455 INFO org.springframework.cloud.commons.util.InetUtils [restartedMain] Cannot determine local hostname
+2021-11-13 22:28:19,455 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Context refreshed
+2021-11-13 22:28:19,476 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Found 1 custom documentation plugin(s)
+2021-11-13 22:28:19,498 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [restartedMain] Scanning for api listing references
+2021-11-13 22:28:19,671 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ChallengeApplication in 12.452 seconds (JVM running for 13.683)
+2021-11-13 22:28:30,255 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-13 22:28:30,256 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-11-13 22:28:30,258 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2021-11-13 22:30:28,227 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ChallengeApplication using Java 11.0.11 on jean-b01 with PID 29924 (C:\Users\jean.b\Desktop\Treinamento\talkd\pnia\pnia-challenge\challenge\target\classes started by jean.b in C:\Users\jean.b\Desktop\Treinamento\talkd\pnia\pnia-challenge\challenge)
+2021-11-13 22:30:28,227 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.12, Spring v5.3.12
+2021-11-13 22:30:28,227 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-13 22:30:28,312 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-11-13 22:30:28,312 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-11-13 22:30:29,657 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=06b550da-c1fd-3d8f-bb30-47f8fdb1a993
+2021-11-13 22:30:30,691 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-11-13 22:30:30,706 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-11-13 22:30:30,706 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-11-13 22:30:30,706 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-13 22:30:30,870 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-11-13 22:30:30,870 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2558 ms
+2021-11-13 22:30:31,107 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-11-13 22:30:34,007 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [restartedMain] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-11-13 22:30:35,796 INFO org.springframework.cloud.commons.util.InetUtils [restartedMain] Cannot determine local hostname
+2021-11-13 22:30:35,817 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-11-13 22:30:35,848 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-11-13 22:30:37,252 INFO org.springframework.cloud.commons.util.InetUtils [restartedMain] Cannot determine local hostname
+2021-11-13 22:30:37,252 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Context refreshed
+2021-11-13 22:30:37,258 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Found 1 custom documentation plugin(s)
+2021-11-13 22:30:37,289 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [restartedMain] Scanning for api listing references
+2021-11-13 22:30:37,452 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ChallengeApplication in 11.31 seconds (JVM running for 12.488)
+2021-11-13 22:30:42,269 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-13 22:30:42,271 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-11-13 22:30:42,272 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2021-11-13 22:32:46,333 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ChallengeApplication using Java 11.0.11 on jean-b01 with PID 16688 (C:\Users\jean.b\Desktop\Treinamento\talkd\pnia\pnia-challenge\challenge\target\classes started by jean.b in C:\Users\jean.b\Desktop\Treinamento\talkd\pnia\pnia-challenge\challenge)
+2021-11-13 22:32:46,333 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.12, Spring v5.3.12
+2021-11-13 22:32:46,333 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-13 22:32:46,402 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-11-13 22:32:46,402 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-11-13 22:32:47,682 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=06b550da-c1fd-3d8f-bb30-47f8fdb1a993
+2021-11-13 22:32:48,599 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-11-13 22:32:48,615 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-11-13 22:32:48,615 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-11-13 22:32:48,615 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-13 22:32:48,769 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-11-13 22:32:48,769 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2367 ms
+2021-11-13 22:32:49,032 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-11-13 22:32:53,052 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [restartedMain] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-11-13 22:32:55,008 INFO org.springframework.cloud.commons.util.InetUtils [restartedMain] Cannot determine local hostname
+2021-11-13 22:32:55,071 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-11-13 22:32:55,157 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-11-13 22:32:57,001 INFO org.springframework.cloud.commons.util.InetUtils [restartedMain] Cannot determine local hostname
+2021-11-13 22:32:57,001 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Context refreshed
+2021-11-13 22:32:57,032 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Found 1 custom documentation plugin(s)
+2021-11-13 22:32:57,085 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [restartedMain] Scanning for api listing references
+2021-11-13 22:32:57,449 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ChallengeApplication in 13.192 seconds (JVM running for 14.405)
+2021-11-13 22:32:59,794 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-13 22:32:59,796 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-11-13 22:32:59,797 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2021-11-13 22:36:41,883 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ChallengeApplication using Java 11.0.11 on jean-b01 with PID 32720 (C:\Users\jean.b\Desktop\Treinamento\talkd\pnia\pnia-challenge\challenge\target\classes started by jean.b in C:\Users\jean.b\Desktop\Treinamento\talkd\pnia\pnia-challenge\challenge)
+2021-11-13 22:36:41,883 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.12, Spring v5.3.12
+2021-11-13 22:36:41,898 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-13 22:36:41,983 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-11-13 22:36:41,983 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-11-13 22:36:43,379 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=06b550da-c1fd-3d8f-bb30-47f8fdb1a993
+2021-11-13 22:36:44,429 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-11-13 22:36:44,444 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-11-13 22:36:44,444 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-11-13 22:36:44,444 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-13 22:36:44,714 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-11-13 22:36:44,714 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2731 ms
+2021-11-13 22:36:45,099 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-11-13 22:40:20,896 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [restartedMain] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-11-13 22:40:22,740 INFO org.springframework.cloud.commons.util.InetUtils [restartedMain] Cannot determine local hostname
+2021-11-13 22:40:22,755 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-11-13 22:40:22,787 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-11-13 22:40:24,189 INFO org.springframework.cloud.commons.util.InetUtils [restartedMain] Cannot determine local hostname
+2021-11-13 22:40:24,189 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Context refreshed
+2021-11-13 22:40:24,204 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Found 1 custom documentation plugin(s)
+2021-11-13 22:40:24,236 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [restartedMain] Scanning for api listing references
+2021-11-13 22:40:24,422 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ChallengeApplication in 224.606 seconds (JVM running for 225.849)
+2021-11-13 22:40:28,231 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-13 22:40:28,234 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-11-13 22:40:28,234 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 0 ms
+2021-11-13 22:43:38,130 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ChallengeApplication using Java 11.0.11 on jean-b01 with PID 19128 (C:\Users\jean.b\Desktop\Treinamento\talkd\pnia\pnia-challenge\challenge\target\classes started by jean.b in C:\Users\jean.b\Desktop\Treinamento\talkd\pnia\pnia-challenge\challenge)
+2021-11-13 22:43:38,138 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.12, Spring v5.3.12
+2021-11-13 22:43:38,138 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-13 22:43:38,238 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-11-13 22:43:38,238 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-11-13 22:43:39,719 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=06b550da-c1fd-3d8f-bb30-47f8fdb1a993
+2021-11-13 22:43:40,702 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-11-13 22:43:40,734 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-11-13 22:43:40,734 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-11-13 22:43:40,734 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-13 22:43:40,901 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-11-13 22:43:40,901 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2663 ms
+2021-11-13 22:43:41,186 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-11-13 22:43:47,464 INFO com.pnia.challenge.usecase.prefixReaderImpl.FilePrefixReader [restartedMain] Going to read all prefixes from filo into memory, will take time!
+2021-11-13 22:50:05,850 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ChallengeApplication using Java 11.0.11 on jean-b01 with PID 21276 (C:\Users\jean.b\Desktop\Treinamento\talkd\pnia\pnia-challenge\challenge\target\classes started by jean.b in C:\Users\jean.b\Desktop\Treinamento\talkd\pnia\pnia-challenge\challenge)
+2021-11-13 22:50:05,865 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.12, Spring v5.3.12
+2021-11-13 22:50:05,865 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-13 22:50:05,934 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-11-13 22:50:05,934 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-11-13 22:50:07,169 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=06b550da-c1fd-3d8f-bb30-47f8fdb1a993
+2021-11-13 22:50:08,243 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-11-13 22:50:08,259 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-11-13 22:50:08,259 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-11-13 22:50:08,259 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-13 22:50:08,409 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-11-13 22:50:08,409 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2475 ms
+2021-11-13 22:50:08,725 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-11-13 22:50:13,502 INFO com.pnia.challenge.usecase.prefixReaderImpl.FilePrefixReader [restartedMain] Going to read all prefixes from file into memory, will take time!
+2021-11-13 22:54:14,775 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ChallengeApplication using Java 11.0.11 on jean-b01 with PID 13352 (C:\Users\jean.b\Desktop\Treinamento\talkd\pnia\pnia-challenge\challenge\target\classes started by jean.b in C:\Users\jean.b\Desktop\Treinamento\talkd\pnia\pnia-challenge\challenge)
+2021-11-13 22:54:14,775 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.12, Spring v5.3.12
+2021-11-13 22:54:14,775 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-13 22:54:14,843 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-11-13 22:54:14,843 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-11-13 22:54:16,313 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=06b550da-c1fd-3d8f-bb30-47f8fdb1a993
+2021-11-13 22:54:17,418 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-11-13 22:54:17,434 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-11-13 22:54:17,434 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-11-13 22:54:17,434 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-13 22:54:17,580 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-11-13 22:54:17,580 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2737 ms
+2021-11-13 22:54:17,820 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-11-13 22:54:20,751 INFO com.pnia.challenge.usecase.prefixReaderImpl.FilePrefixReader [restartedMain] Going to read all prefixes from file into memory, will take time!
+2021-11-13 23:00:13,213 INFO com.pnia.challenge.usecase.prefixReaderImpl.FilePrefixReader [restartedMain] Prefixes files is into memory!
+2021-11-13 23:00:13,752 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [restartedMain] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-11-13 23:00:15,854 INFO org.springframework.cloud.commons.util.InetUtils [restartedMain] Cannot determine local hostname
+2021-11-13 23:00:15,926 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-11-13 23:00:17,480 INFO org.springframework.cloud.commons.util.InetUtils [restartedMain] Cannot determine local hostname
+2021-11-13 23:00:17,481 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Context refreshed
+2021-11-13 23:00:17,509 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Found 1 custom documentation plugin(s)
+2021-11-13 23:00:17,546 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [restartedMain] Scanning for api listing references
+2021-11-13 23:00:17,778 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ChallengeApplication in 365.128 seconds (JVM running for 366.536)
+2021-11-13 23:01:19,645 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ChallengeApplication using Java 11.0.11 on jean-b01 with PID 25832 (C:\Users\jean.b\Desktop\Treinamento\talkd\pnia\pnia-challenge\challenge\target\classes started by jean.b in C:\Users\jean.b\Desktop\Treinamento\talkd\pnia\pnia-challenge\challenge)
+2021-11-13 23:01:19,650 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.12, Spring v5.3.12
+2021-11-13 23:01:19,651 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-13 23:01:19,746 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-11-13 23:01:19,746 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-11-13 23:01:21,260 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=06b550da-c1fd-3d8f-bb30-47f8fdb1a993
+2021-11-13 23:01:22,488 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-11-13 23:01:22,506 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-11-13 23:01:22,507 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-11-13 23:01:22,508 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-13 23:01:22,757 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-11-13 23:01:22,758 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 3011 ms
+2021-11-13 23:01:23,021 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-11-13 23:01:26,405 INFO com.pnia.challenge.usecase.prefixReaderImpl.FilePrefixReader [restartedMain] Going to read all prefixes from file into memory, will take time!
+2021-11-13 23:01:26,406 ERROR com.pnia.challenge.usecase.prefixReaderImpl.FilePrefixReader [restartedMain] java.io.FileNotFoundException: \prefixes.txt (The system cannot find the file specified)
+2021-11-13 23:01:26,407 INFO com.pnia.challenge.usecase.prefixReaderImpl.FilePrefixReader [restartedMain] Prefixes files is into memory!
+2021-11-13 23:01:26,825 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [restartedMain] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-11-13 23:01:28,697 INFO org.springframework.cloud.commons.util.InetUtils [restartedMain] Cannot determine local hostname
+2021-11-13 23:01:28,730 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-11-13 23:01:28,759 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-11-13 23:01:30,264 INFO org.springframework.cloud.commons.util.InetUtils [restartedMain] Cannot determine local hostname
+2021-11-13 23:01:30,264 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Context refreshed
+2021-11-13 23:01:30,286 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Found 1 custom documentation plugin(s)
+2021-11-13 23:01:30,314 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [restartedMain] Scanning for api listing references
+2021-11-13 23:01:30,493 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ChallengeApplication in 13.143 seconds (JVM running for 14.602)
+2021-11-13 23:03:27,805 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ChallengeApplication using Java 11.0.11 on jean-b01 with PID 32416 (C:\Users\jean.b\Desktop\Treinamento\talkd\pnia\pnia-challenge\challenge\target\classes started by jean.b in C:\Users\jean.b\Desktop\Treinamento\talkd\pnia\pnia-challenge\challenge)
+2021-11-13 23:03:27,810 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.12, Spring v5.3.12
+2021-11-13 23:03:27,810 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-13 23:03:27,913 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-11-13 23:03:27,913 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-11-13 23:03:29,314 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=06b550da-c1fd-3d8f-bb30-47f8fdb1a993
+2021-11-13 23:03:30,513 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-11-13 23:03:30,527 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-11-13 23:03:30,528 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-11-13 23:03:30,529 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-13 23:03:30,698 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-11-13 23:03:30,698 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2783 ms
+2021-11-13 23:03:30,963 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-11-13 23:03:34,536 INFO com.pnia.challenge.usecase.prefixReaderImpl.FilePrefixReader [restartedMain] Going to read all prefixes from file into memory, will take time!
+2021-11-13 23:03:34,542 DEBUG com.pnia.challenge.usecase.prefixReaderImpl.FilePrefixReader [restartedMain] LINE: 1
+2021-11-13 23:03:34,543 DEBUG com.pnia.challenge.usecase.prefixReaderImpl.FilePrefixReader [restartedMain] LINE: 2
+2021-11-13 23:03:34,544 DEBUG com.pnia.challenge.usecase.prefixReaderImpl.FilePrefixReader [restartedMain] LINE: 44
+2021-11-13 23:03:34,544 DEBUG com.pnia.challenge.usecase.prefixReaderImpl.FilePrefixReader [restartedMain] LINE: 3000000
+2021-11-13 23:03:34,544 DEBUG com.pnia.challenge.usecase.prefixReaderImpl.FilePrefixReader [restartedMain] LINE: 3000001
+2021-11-13 23:03:34,545 DEBUG com.pnia.challenge.usecase.prefixReaderImpl.FilePrefixReader [restartedMain] LINE: 3000002
+2021-11-13 23:03:34,545 DEBUG com.pnia.challenge.usecase.prefixReaderImpl.FilePrefixReader [restartedMain] LINE: 3000003
+2021-11-13 23:03:34,545 DEBUG com.pnia.challenge.usecase.prefixReaderImpl.FilePrefixReader [restartedMain] LINE: 3899996
+2021-11-13 23:03:34,545 DEBUG com.pnia.challenge.usecase.prefixReaderImpl.FilePrefixReader [restartedMain] LINE: 3899997
+2021-11-13 23:03:34,546 DEBUG com.pnia.challenge.usecase.prefixReaderImpl.FilePrefixReader [restartedMain] LINE: 3899998
+2021-11-13 23:03:34,546 DEBUG com.pnia.challenge.usecase.prefixReaderImpl.FilePrefixReader [restartedMain] LINE: 3899999
+2021-11-13 23:03:34,546 DEBUG com.pnia.challenge.usecase.prefixReaderImpl.FilePrefixReader [restartedMain] LINE: 3900000
+2021-11-13 23:03:34,546 DEBUG com.pnia.challenge.usecase.prefixReaderImpl.FilePrefixReader [restartedMain] LINE: 6
+2021-11-13 23:03:34,546 INFO com.pnia.challenge.usecase.prefixReaderImpl.FilePrefixReader [restartedMain] Prefixes files is into memory!
+2021-11-13 23:03:34,935 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [restartedMain] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-11-13 23:03:36,917 INFO org.springframework.cloud.commons.util.InetUtils [restartedMain] Cannot determine local hostname
+2021-11-13 23:03:36,958 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-11-13 23:03:36,992 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-11-13 23:03:38,521 INFO org.springframework.cloud.commons.util.InetUtils [restartedMain] Cannot determine local hostname
+2021-11-13 23:03:38,521 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Context refreshed
+2021-11-13 23:03:38,547 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Found 1 custom documentation plugin(s)
+2021-11-13 23:03:38,587 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [restartedMain] Scanning for api listing references
+2021-11-13 23:03:38,887 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ChallengeApplication in 13.899 seconds (JVM running for 15.346)
+2021-11-13 23:04:07,119 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-13 23:04:07,121 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-11-13 23:04:07,122 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2021-11-13 23:07:57,945 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ChallengeApplication using Java 11.0.11 on jean-b01 with PID 23984 (C:\Users\jean.b\Desktop\Treinamento\talkd\pnia\pnia-challenge\challenge\target\classes started by jean.b in C:\Users\jean.b\Desktop\Treinamento\talkd\pnia\pnia-challenge\challenge)
+2021-11-13 23:07:57,945 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.12, Spring v5.3.12
+2021-11-13 23:07:57,945 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-13 23:07:58,045 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-11-13 23:07:58,045 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-11-13 23:07:59,442 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=06b550da-c1fd-3d8f-bb30-47f8fdb1a993
+2021-11-13 23:08:00,366 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-11-13 23:08:00,382 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-11-13 23:08:00,388 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-11-13 23:08:00,388 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-13 23:08:00,537 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-11-13 23:08:00,537 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2492 ms
+2021-11-13 23:08:00,790 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-11-13 23:08:04,479 INFO com.pnia.challenge.usecase.prefixReaderImpl.FilePrefixReader [restartedMain] Going to read all prefixes from file into memory, will take time!
+2021-11-13 23:08:04,494 DEBUG com.pnia.challenge.usecase.prefixReaderImpl.FilePrefixReader [restartedMain] LINE: 1
+2021-11-13 23:08:04,494 DEBUG com.pnia.challenge.usecase.prefixReaderImpl.FilePrefixReader [restartedMain] LINE: 2
+2021-11-13 23:08:04,494 DEBUG com.pnia.challenge.usecase.prefixReaderImpl.FilePrefixReader [restartedMain] LINE: 44
+2021-11-13 23:08:04,494 DEBUG com.pnia.challenge.usecase.prefixReaderImpl.FilePrefixReader [restartedMain] LINE: 3000000
+2021-11-13 23:08:04,494 DEBUG com.pnia.challenge.usecase.prefixReaderImpl.FilePrefixReader [restartedMain] LINE: 3000001
+2021-11-13 23:08:04,494 DEBUG com.pnia.challenge.usecase.prefixReaderImpl.FilePrefixReader [restartedMain] LINE: 3000002
+2021-11-13 23:08:04,494 DEBUG com.pnia.challenge.usecase.prefixReaderImpl.FilePrefixReader [restartedMain] LINE: 3000003
+2021-11-13 23:08:04,494 DEBUG com.pnia.challenge.usecase.prefixReaderImpl.FilePrefixReader [restartedMain] LINE: 3899996
+2021-11-13 23:08:04,494 DEBUG com.pnia.challenge.usecase.prefixReaderImpl.FilePrefixReader [restartedMain] LINE: 3899997
+2021-11-13 23:08:04,494 DEBUG com.pnia.challenge.usecase.prefixReaderImpl.FilePrefixReader [restartedMain] LINE: 3899998
+2021-11-13 23:08:04,494 DEBUG com.pnia.challenge.usecase.prefixReaderImpl.FilePrefixReader [restartedMain] LINE: 3899999
+2021-11-13 23:08:04,494 DEBUG com.pnia.challenge.usecase.prefixReaderImpl.FilePrefixReader [restartedMain] LINE: 3900000
+2021-11-13 23:08:04,494 DEBUG com.pnia.challenge.usecase.prefixReaderImpl.FilePrefixReader [restartedMain] LINE: 6
+2021-11-13 23:08:04,494 INFO com.pnia.challenge.usecase.prefixReaderImpl.FilePrefixReader [restartedMain] Prefixes files is into memory!
+2021-11-13 23:08:04,795 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [restartedMain] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-11-13 23:08:06,558 INFO org.springframework.cloud.commons.util.InetUtils [restartedMain] Cannot determine local hostname
+2021-11-13 23:08:06,573 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-11-13 23:08:06,605 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-11-13 23:08:08,006 INFO org.springframework.cloud.commons.util.InetUtils [restartedMain] Cannot determine local hostname
+2021-11-13 23:08:08,006 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Context refreshed
+2021-11-13 23:08:08,021 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Found 1 custom documentation plugin(s)
+2021-11-13 23:08:08,043 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [restartedMain] Scanning for api listing references
+2021-11-13 23:08:08,191 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ChallengeApplication in 12.331 seconds (JVM running for 13.56)
+2021-11-13 23:08:15,363 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-13 23:08:15,364 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-11-13 23:08:15,365 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2021-11-13 23:11:37,447 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ChallengeApplication using Java 11.0.11 on jean-b01 with PID 29568 (C:\Users\jean.b\Desktop\Treinamento\talkd\pnia\pnia-challenge\challenge\target\classes started by jean.b in C:\Users\jean.b\Desktop\Treinamento\talkd\pnia\pnia-challenge\challenge)
+2021-11-13 23:11:37,447 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.12, Spring v5.3.12
+2021-11-13 23:11:37,447 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-13 23:11:37,531 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-11-13 23:11:37,531 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-11-13 23:11:38,865 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=06b550da-c1fd-3d8f-bb30-47f8fdb1a993
+2021-11-13 23:11:39,859 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-11-13 23:11:39,875 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-11-13 23:11:39,875 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-11-13 23:11:39,875 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-13 23:11:40,022 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-11-13 23:11:40,022 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2491 ms
+2021-11-13 23:11:40,260 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-11-13 23:11:44,752 INFO com.pnia.challenge.usecase.prefixReaderImpl.FilePrefixReader [restartedMain] Going to read all prefixes from file into memory, will take time!
+2021-11-13 23:11:44,752 INFO com.pnia.challenge.usecase.prefixReaderImpl.FilePrefixReader [restartedMain] Prefixes files is into memory!
+2021-11-13 23:11:45,152 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [restartedMain] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-11-13 23:11:46,927 INFO org.springframework.cloud.commons.util.InetUtils [restartedMain] Cannot determine local hostname
+2021-11-13 23:11:46,942 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-11-13 23:11:46,980 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-11-13 23:11:48,364 INFO org.springframework.cloud.commons.util.InetUtils [restartedMain] Cannot determine local hostname
+2021-11-13 23:11:48,364 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Context refreshed
+2021-11-13 23:11:48,386 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Found 1 custom documentation plugin(s)
+2021-11-13 23:11:48,417 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [restartedMain] Scanning for api listing references
+2021-11-13 23:11:48,564 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ChallengeApplication in 13.196 seconds (JVM running for 14.483)
+2021-11-13 23:12:27,995 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-13 23:12:27,997 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-11-13 23:12:27,999 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+2021-11-13 23:16:00,709 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ChallengeApplication using Java 11.0.11 on jean-b01 with PID 14632 (C:\Users\jean.b\Desktop\Treinamento\talkd\pnia\pnia-challenge\challenge\target\classes started by jean.b in C:\Users\jean.b\Desktop\Treinamento\talkd\pnia\pnia-challenge\challenge)
+2021-11-13 23:16:00,724 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.12, Spring v5.3.12
+2021-11-13 23:16:00,724 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-13 23:16:00,809 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-11-13 23:16:00,809 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-11-13 23:16:02,142 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=06b550da-c1fd-3d8f-bb30-47f8fdb1a993
+2021-11-13 23:16:03,103 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-11-13 23:16:03,118 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-11-13 23:16:03,118 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-11-13 23:16:03,118 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-13 23:16:03,250 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-11-13 23:16:03,250 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2441 ms
+2021-11-13 23:16:03,566 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-11-13 23:16:08,366 INFO com.pnia.challenge.usecase.prefixReaderImpl.FilePrefixReader [restartedMain] Going to read all prefixes from file into memory, will take time!
+2021-11-13 23:16:08,366 INFO com.pnia.challenge.usecase.prefixReaderImpl.FilePrefixReader [restartedMain] Prefixes files is into memory!
+2021-11-13 23:16:08,665 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [restartedMain] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-11-13 23:16:10,485 INFO org.springframework.cloud.commons.util.InetUtils [restartedMain] Cannot determine local hostname
+2021-11-13 23:16:10,500 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-11-13 23:16:10,531 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-11-13 23:16:11,917 INFO org.springframework.cloud.commons.util.InetUtils [restartedMain] Cannot determine local hostname
+2021-11-13 23:16:11,917 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Context refreshed
+2021-11-13 23:16:11,922 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Found 1 custom documentation plugin(s)
+2021-11-13 23:16:11,954 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [restartedMain] Scanning for api listing references
+2021-11-13 23:16:12,168 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ChallengeApplication in 13.516 seconds (JVM running for 14.733)
+2021-11-13 23:16:16,960 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-13 23:16:16,961 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-11-13 23:16:16,963 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+2021-11-13 23:20:00,161 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ChallengeApplication using Java 11.0.11 on jean-b01 with PID 4704 (C:\Users\jean.b\Desktop\Treinamento\talkd\pnia\pnia-challenge\challenge\target\classes started by jean.b in C:\Users\jean.b\Desktop\Treinamento\talkd\pnia\pnia-challenge\challenge)
+2021-11-13 23:20:00,177 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.12, Spring v5.3.12
+2021-11-13 23:20:00,177 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-13 23:20:00,262 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-11-13 23:20:00,262 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-11-13 23:20:01,564 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=06b550da-c1fd-3d8f-bb30-47f8fdb1a993
+2021-11-13 23:20:02,568 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-11-13 23:20:02,583 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-11-13 23:20:02,583 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-11-13 23:20:02,583 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-13 23:20:02,715 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-11-13 23:20:02,715 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2453 ms
+2021-11-13 23:20:02,966 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-11-13 23:20:03,098 INFO com.pnia.challenge.usecase.prefixReaderImpl.FilePrefixReader [restartedMain] Going to read all prefixes from file into memory, will take time!
+2021-11-13 23:20:03,098 INFO com.pnia.challenge.usecase.prefixReaderImpl.FilePrefixReader [restartedMain] Prefixes files is into memory!
+2021-11-13 23:20:03,499 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [restartedMain] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-11-13 23:20:05,296 INFO org.springframework.cloud.commons.util.InetUtils [restartedMain] Cannot determine local hostname
+2021-11-13 23:20:05,342 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-11-13 23:20:05,380 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-11-13 23:20:07,544 INFO org.springframework.cloud.commons.util.InetUtils [restartedMain] Cannot determine local hostname
+2021-11-13 23:20:07,544 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Context refreshed
+2021-11-13 23:20:07,575 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Found 1 custom documentation plugin(s)
+2021-11-13 23:20:07,628 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [restartedMain] Scanning for api listing references
+2021-11-13 23:20:07,960 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ChallengeApplication in 9.885 seconds (JVM running for 11.216)
+2021-11-13 23:20:15,784 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-13 23:20:15,786 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-11-13 23:20:15,787 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2021-11-13 23:22:01,868 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ChallengeApplication using Java 11.0.11 on jean-b01 with PID 1144 (C:\Users\jean.b\Desktop\Treinamento\talkd\pnia\pnia-challenge\challenge\target\classes started by jean.b in C:\Users\jean.b\Desktop\Treinamento\talkd\pnia\pnia-challenge\challenge)
+2021-11-13 23:22:01,868 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.12, Spring v5.3.12
+2021-11-13 23:22:01,868 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-13 23:22:01,939 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-11-13 23:22:01,939 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-11-13 23:22:03,326 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=06b550da-c1fd-3d8f-bb30-47f8fdb1a993
+2021-11-13 23:22:04,325 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-11-13 23:22:04,340 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-11-13 23:22:04,340 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-11-13 23:22:04,340 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-13 23:22:04,525 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-11-13 23:22:04,525 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2570 ms
+2021-11-13 23:22:04,788 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-11-13 23:22:04,894 INFO com.pnia.challenge.usecase.prefixReaderImpl.FilePrefixReader [restartedMain] Going to read all prefixes from file into memory, will take time!
+2021-11-13 23:22:04,894 INFO com.pnia.challenge.usecase.prefixReaderImpl.FilePrefixReader [restartedMain] Prefixes files is into memory!
+2021-11-13 23:22:05,282 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [restartedMain] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-11-13 23:22:07,207 INFO org.springframework.cloud.commons.util.InetUtils [restartedMain] Cannot determine local hostname
+2021-11-13 23:22:07,253 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-11-13 23:22:07,291 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-11-13 23:22:09,046 INFO org.springframework.cloud.commons.util.InetUtils [restartedMain] Cannot determine local hostname
+2021-11-13 23:22:09,046 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Context refreshed
+2021-11-13 23:22:09,061 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Found 1 custom documentation plugin(s)
+2021-11-13 23:22:09,108 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [restartedMain] Scanning for api listing references
+2021-11-13 23:22:09,271 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ChallengeApplication in 9.488 seconds (JVM running for 10.709)
+2021-11-13 23:22:16,707 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-13 23:22:16,708 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-11-13 23:22:16,709 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 0 ms
+2021-11-13 23:31:59,656 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ChallengeApplication using Java 11.0.11 on jean-b01 with PID 15064 (C:\Users\jean.b\Desktop\Treinamento\talkd\pnia\pnia-challenge\challenge\target\classes started by jean.b in C:\Users\jean.b\Desktop\Treinamento\talkd\pnia\pnia-challenge\challenge)
+2021-11-13 23:31:59,656 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.12, Spring v5.3.12
+2021-11-13 23:31:59,656 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-13 23:31:59,743 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-11-13 23:31:59,743 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-11-13 23:32:01,044 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=06b550da-c1fd-3d8f-bb30-47f8fdb1a993
+2021-11-13 23:32:02,085 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-11-13 23:32:02,101 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-11-13 23:32:02,116 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-11-13 23:32:02,116 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-13 23:32:02,265 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-11-13 23:32:02,265 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2522 ms
+2021-11-13 23:32:02,480 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-11-13 23:32:02,586 INFO com.pnia.challenge.usecase.prefixReaderImpl.FilePrefixReader [restartedMain] Going to read all prefixes from file into memory, will take time!
+2021-11-13 23:32:02,586 INFO com.pnia.challenge.usecase.prefixReaderImpl.FilePrefixReader [restartedMain] Prefixes files is into memory!
+2021-11-13 23:32:03,003 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [restartedMain] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-11-13 23:32:04,715 INFO org.springframework.cloud.commons.util.InetUtils [restartedMain] Cannot determine local hostname
+2021-11-13 23:32:04,746 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-11-13 23:32:04,763 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-11-13 23:32:06,152 INFO org.springframework.cloud.commons.util.InetUtils [restartedMain] Cannot determine local hostname
+2021-11-13 23:32:06,152 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Context refreshed
+2021-11-13 23:32:06,167 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Found 1 custom documentation plugin(s)
+2021-11-13 23:32:06,189 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [restartedMain] Scanning for api listing references
+2021-11-13 23:32:06,361 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ChallengeApplication in 8.75 seconds (JVM running for 9.985)
+2021-11-13 23:32:14,829 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-13 23:32:14,831 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-11-13 23:32:14,831 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 0 ms
+2021-11-13 23:34:21,311 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ChallengeApplication using Java 11.0.11 on jean-b01 with PID 22776 (C:\Users\jean.b\Desktop\Treinamento\talkd\pnia\pnia-challenge\challenge\target\classes started by jean.b in C:\Users\jean.b\Desktop\Treinamento\talkd\pnia\pnia-challenge\challenge)
+2021-11-13 23:34:21,311 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.12, Spring v5.3.12
+2021-11-13 23:34:21,311 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-13 23:34:21,381 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-11-13 23:34:21,381 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-11-13 23:34:22,614 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=06b550da-c1fd-3d8f-bb30-47f8fdb1a993
+2021-11-13 23:34:23,667 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-11-13 23:34:23,683 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-11-13 23:34:23,683 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-11-13 23:34:23,683 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-13 23:34:23,814 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-11-13 23:34:23,814 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2417 ms
+2021-11-13 23:34:24,068 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-11-13 23:34:24,200 INFO com.pnia.challenge.usecase.prefixReaderImpl.FilePrefixReader [restartedMain] Going to read all prefixes from file into memory, will take time!
+2021-11-13 23:34:36,127 INFO com.pnia.challenge.usecase.prefixReaderImpl.FilePrefixReader [restartedMain] Prefixes files is into memory!
+2021-11-13 23:34:36,559 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [restartedMain] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-11-13 23:34:38,446 INFO org.springframework.cloud.commons.util.InetUtils [restartedMain] Cannot determine local hostname
+2021-11-13 23:34:38,484 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-11-13 23:34:48,016 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ChallengeApplication using Java 11.0.11 on jean-b01 with PID 28824 (C:\Users\jean.b\Desktop\Treinamento\talkd\pnia\pnia-challenge\challenge\target\classes started by jean.b in C:\Users\jean.b\Desktop\Treinamento\talkd\pnia\pnia-challenge\challenge)
+2021-11-13 23:34:48,016 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.12, Spring v5.3.12
+2021-11-13 23:34:48,031 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-13 23:34:48,100 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-11-13 23:34:48,100 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-11-13 23:34:49,371 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=06b550da-c1fd-3d8f-bb30-47f8fdb1a993
+2021-11-13 23:34:50,324 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-11-13 23:34:50,339 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-11-13 23:34:50,339 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-11-13 23:34:50,339 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-13 23:34:50,477 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-11-13 23:34:50,477 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2377 ms
+2021-11-13 23:34:50,709 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-11-13 23:34:50,841 INFO com.pnia.challenge.usecase.prefixReaderImpl.FilePrefixReader [restartedMain] Going to read all prefixes from file into memory, will take time!
+2021-11-13 23:34:50,841 INFO com.pnia.challenge.usecase.prefixReaderImpl.FilePrefixReader [restartedMain] Prefixes files is into memory!
+2021-11-13 23:34:51,210 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [restartedMain] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-11-13 23:34:52,979 INFO org.springframework.cloud.commons.util.InetUtils [restartedMain] Cannot determine local hostname
+2021-11-13 23:34:52,995 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-11-13 23:34:53,028 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-11-13 23:34:54,431 INFO org.springframework.cloud.commons.util.InetUtils [restartedMain] Cannot determine local hostname
+2021-11-13 23:34:54,431 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Context refreshed
+2021-11-13 23:34:54,449 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Found 1 custom documentation plugin(s)
+2021-11-13 23:34:54,481 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [restartedMain] Scanning for api listing references
+2021-11-13 23:34:54,649 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ChallengeApplication in 8.739 seconds (JVM running for 10.024)
+2021-11-13 23:34:58,836 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-13 23:34:58,838 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-11-13 23:34:58,839 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2021-11-13 23:39:28,677 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ChallengeApplication using Java 11.0.11 on jean-b01 with PID 9336 (C:\Users\jean.b\Desktop\Treinamento\talkd\pnia\pnia-challenge\challenge\target\classes started by jean.b in C:\Users\jean.b\Desktop\Treinamento\talkd\pnia\pnia-challenge\challenge)
+2021-11-13 23:39:28,678 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.12, Spring v5.3.12
+2021-11-13 23:39:28,678 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-13 23:39:28,768 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-11-13 23:39:28,768 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-11-13 23:39:30,117 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=06b550da-c1fd-3d8f-bb30-47f8fdb1a993
+2021-11-13 23:39:31,123 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-11-13 23:39:31,140 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-11-13 23:39:31,140 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-11-13 23:39:31,140 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-13 23:39:31,301 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-11-13 23:39:31,301 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2533 ms
+2021-11-13 23:39:31,574 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-11-13 23:39:31,708 INFO com.pnia.challenge.usecase.prefixReaderImpl.FilePrefixReader [restartedMain] Going to read all prefixes from file into memory, will take time!
+2021-11-13 23:39:31,708 INFO com.pnia.challenge.usecase.prefixReaderImpl.FilePrefixReader [restartedMain] Prefixes files is into memory!
+2021-11-13 23:39:32,087 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [restartedMain] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-11-13 23:39:33,920 INFO org.springframework.cloud.commons.util.InetUtils [restartedMain] Cannot determine local hostname
+2021-11-13 23:39:33,942 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-11-13 23:39:33,958 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-11-13 23:39:35,341 INFO org.springframework.cloud.commons.util.InetUtils [restartedMain] Cannot determine local hostname
+2021-11-13 23:39:35,341 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Context refreshed
+2021-11-13 23:39:35,360 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Found 1 custom documentation plugin(s)
+2021-11-13 23:39:35,389 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [restartedMain] Scanning for api listing references
+2021-11-13 23:39:35,576 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ChallengeApplication in 8.984 seconds (JVM running for 10.15)
+2021-11-13 23:39:47,931 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-13 23:39:47,933 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-11-13 23:39:47,934 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2021-11-13 23:45:13,377 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ChallengeApplication using Java 11.0.11 on jean-b01 with PID 30764 (C:\Users\jean.b\Desktop\Treinamento\talkd\pnia\pnia-challenge\challenge\target\classes started by jean.b in C:\Users\jean.b\Desktop\Treinamento\talkd\pnia\pnia-challenge\challenge)
+2021-11-13 23:45:13,377 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.12, Spring v5.3.12
+2021-11-13 23:45:13,377 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-13 23:45:13,470 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-11-13 23:45:13,470 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-11-13 23:45:14,762 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=06b550da-c1fd-3d8f-bb30-47f8fdb1a993
+2021-11-13 23:45:15,643 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-11-13 23:45:15,659 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-11-13 23:45:15,659 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-11-13 23:45:15,659 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-13 23:45:15,803 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-11-13 23:45:15,803 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2333 ms
+2021-11-13 23:45:16,052 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-11-13 23:45:16,219 INFO com.pnia.challenge.usecase.prefixReaderImpl.FilePrefixReader [restartedMain] Going to read all prefixes from file into memory, will take time!
+2021-11-13 23:45:16,219 INFO com.pnia.challenge.usecase.prefixReaderImpl.FilePrefixReader [restartedMain] Prefixes files is into memory!
+2021-11-13 23:45:16,884 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [restartedMain] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-11-13 23:45:19,292 INFO org.springframework.cloud.commons.util.InetUtils [restartedMain] Cannot determine local hostname
+2021-11-13 23:45:19,344 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-11-13 23:45:19,375 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-11-13 23:45:21,208 INFO org.springframework.cloud.commons.util.InetUtils [restartedMain] Cannot determine local hostname
+2021-11-13 23:45:21,208 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Context refreshed
+2021-11-13 23:45:21,223 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Found 1 custom documentation plugin(s)
+2021-11-13 23:45:21,245 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [restartedMain] Scanning for api listing references
+2021-11-13 23:45:21,393 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ChallengeApplication in 10.053 seconds (JVM running for 11.27)
+2021-11-13 23:45:26,929 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-13 23:45:26,931 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-11-13 23:45:26,933 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2021-11-13 23:56:18,544 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ChallengeApplication using Java 11.0.11 on jean-b01 with PID 31532 (C:\Users\jean.b\Desktop\Treinamento\talkd\pnia\pnia-challenge\challenge\target\classes started by jean.b in C:\Users\jean.b\Desktop\Treinamento\talkd\pnia\pnia-challenge\challenge)
+2021-11-13 23:56:18,560 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.12, Spring v5.3.12
+2021-11-13 23:56:18,560 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-13 23:56:18,629 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-11-13 23:56:18,629 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-11-13 23:56:19,778 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=06b550da-c1fd-3d8f-bb30-47f8fdb1a993
+2021-11-13 23:56:20,778 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-11-13 23:56:20,778 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-11-13 23:56:20,794 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-11-13 23:56:20,794 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-13 23:56:20,916 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-11-13 23:56:20,916 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2287 ms
+2021-11-13 23:56:21,148 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-11-13 23:56:21,254 DEBUG com.pnia.challenge.usecase.prefixReaderImpl.FilePrefixReader [restartedMain] Going to read all prefixes from file into memory, will take time!
