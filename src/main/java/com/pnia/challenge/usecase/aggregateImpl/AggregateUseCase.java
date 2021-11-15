@@ -49,7 +49,7 @@ public class AggregateUseCase implements IAggregate {
 
             mapPrefixToSectors(prefixPerSector, sectors);
 
-            var resp = calculatePrefixSectors(prefixPerSector);
+            Map<String, CounterAggregator> resp = calculatePrefixSectors(prefixPerSector);
 
             return getAggregateResponse(resp);
 
@@ -108,12 +108,12 @@ public class AggregateUseCase implements IAggregate {
 
     private CounterAggregator getSectorOccurrences(Set<BusinessSector> numbers) {
 
-        var banking = new Baking();
-        var clothing = new Clothing();
-        var technology = new Technology();
+        Baking banking = new Baking();
+        Clothing clothing = new Clothing();
+        Technology technology = new Technology();
 
         numbers.forEach((number) -> {
-            var type = number.getSector();
+            String type = number.getSector();
 
             if( type.equals(BusinessSectorType.BANKING.toString()) )
                 banking.addByOne();

@@ -44,7 +44,7 @@ public class AggregateUseCaseSpec {
         doThrow( new AggregationException(message)).when(mockAggregate).aggregate(anyList());
 
         Exception exception = assertThrows(AggregationException.class, () -> {
-            var resp = mockAggregate.aggregate(mockNumberList());
+            Map<String, Map<String, String>> resp = mockAggregate.aggregate(mockNumberList());
         });
 
         Assert.assertEquals(message, exception.getMessage());
@@ -52,7 +52,7 @@ public class AggregateUseCaseSpec {
 
     private List<String> mockNumberList() {
 
-        var list = new LinkedList<String>();
+        List<String> list = new LinkedList<>();
         list.add("+1983248");
         list.add("+1382355");
         list.add("+1478192");

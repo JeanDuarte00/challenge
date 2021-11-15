@@ -16,6 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.time.LocalDateTime;
 import java.util.List;
+import java.util.Map;
 
 @CrossOrigin("*")
 @RestController
@@ -30,9 +31,9 @@ public class AggregatorEntrypoint {
     @ApiOperation(value = "Receives a list of numbers to aggregate")
     public ResponseEntity<?> aggregate(@RequestBody final List<String> numbers) {
         try {
-            var requestHashBasedOnTime = LocalDateTime.now().hashCode();
+            int requestHashBasedOnTime = LocalDateTime.now().hashCode();
             logger.debug("New request ("+requestHashBasedOnTime+") has been made at: " + LocalDateTime.now());
-            var response = ResponseEntity.ok(aggregateLogic.aggregate(numbers));
+            ResponseEntity<Map<String, Map<String, String>>> response = ResponseEntity.ok(aggregateLogic.aggregate(numbers));
             logger.debug("Request ("+requestHashBasedOnTime+")is done: " + LocalDateTime.now());
             return response;
         } catch (HttpMessageNotReadableException ex) {

@@ -13,6 +13,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.HashSet;
+import java.util.Optional;
 import java.util.Set;
 import java.util.concurrent.atomic.AtomicReference;
 
@@ -42,7 +43,7 @@ public final class FilePrefixReader implements IPrefixReader {
 
         String pureNumber = getOnlyNumberAsString(number);
 
-        var resp = prefixes.stream().filter(pureNumber::startsWith).findFirst();
+        Optional<String> resp = prefixes.stream().filter(pureNumber::startsWith).findFirst();
 
         return resp.get();
     }
