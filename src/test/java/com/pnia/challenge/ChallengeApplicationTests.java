@@ -6,6 +6,7 @@ import com.tngtech.archunit.lang.ArchRule;
 import org.junit.Test;
 import org.junit.jupiter.api.DisplayName;
 import org.springframework.boot.test.context.SpringBootTest;
+
 import static com.tngtech.archunit.library.Architectures.layeredArchitecture;
 
 @SpringBootTest
