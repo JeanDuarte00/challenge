@@ -37,7 +37,7 @@ public class AggregatorEntrypoint {
             ResponseEntity<Map<String, Map<String, String>>> response = ResponseEntity.ok(aggregateLogic.aggregate(numbers));
             logger.debug("Request ("+requestHashBasedOnTime+")is done: " + LocalDateTime.now());
             return response;
-        } catch (HTTPException ex) {
+        } catch (HttpMessageNotReadableException ex) {
             return ResponseEntity.status(HttpStatus.NOT_ACCEPTABLE).body("You have sent us a invalid input");
         } catch (Exception ex) {
             return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(ex.getMessage());
