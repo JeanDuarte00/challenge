@@ -1,2 +1,6 @@
+
 mvn clean package
-java -jar target/challenge-0.0.1-SNAPSHOT.jar
+docker-compose up -d
+docker container ls
+
+#java -jar target/challenge-0.0.1-SNAPSHOT.jar
